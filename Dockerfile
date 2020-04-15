@@ -1,4 +1,4 @@
-FROM jwilder/nginx-proxy:0.7.0
+FROM jwilder/nginx-proxy:alpine-0.7.0
 MAINTAINER emilletfr@gmail.com
 RUN { \
       echo 'server_tokens off;'; \
